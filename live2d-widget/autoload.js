@@ -33,8 +33,8 @@ if (screen.width >= 768) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "https://live2d.saltedfish.xyz/api/",
-			//cdnPath: "https://npm.elemecdn.com/saltedfish_live2d_api@latest/"
+			//apiPath: "https://live2d.saltedfish.xyz/api/",
+			cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
 		});
 	});
 }
